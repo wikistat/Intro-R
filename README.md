@@ -1,17 +1,18 @@
 
 ##<a href="http://www.insa-toulouse.fr/" ><img src="http://www.math.univ-toulouse.fr/~besse/Wikistat/Images/Logo_INSAvilletoulouse-RVB.png" style="float:left; max-width: 80px; display: inline" alt="INSA"/> |  [*Mathématiques Appliquées*](http://www.math.insa-toulouse.fr/fr/index.html), [`Science des Données`](http://www.math.insa-toulouse.fr/fr/enseignement.html) 
-# <a href="https://cran.r-project.org/"><img src="https://cran.r-project.org/Rlogo.svg" style="max-width: 40px; display: inline" alt="R"/></a> pour Statistique et *Science des Données*
+
+# [R](https://cran.r-project.org/) pour Statistique et *Science des Données*
 
 L'objectif de ces tutoriels, proposés sous forme de calepins ([*jupyter notebooks*](http://jupyter.org/)), est d'introduire les principaux concepts et fonctionnalités du langage [R](https://cran.r-project.org/) en insistant sur ceux indispensable au statisticien, maintenant *data scientist*. Syntaxe, objets et classes, fonctions graphiques, techniques de préparation (*munging* ou *wrangling*) des données puis leur analyse en enchaînant phases d'[exploration](http://wikistat.fr/) et de [modélisation](http://wikistat.fr/) ou [apprentissage](http://wikistat.fr/) (machine / statistique). Des exemples plus détaillés sur des données spécifiques (en R et en python) sont proposés sur [wikistat.fr](http://wikistat.fr/) ainsi que dans les autres dépôts de ce site. Les méthodes sont exposées dans les vignettes de [wikistat](http://wikistat.fr/).
 
 Les documents sont des calepins (*notebooks*) au format .ipynb à télécharger et ouvrir dans *Jupyter*. Il suffit pour cela de cloner le dépôt dans son propre environnement [GitHub](https://github.com/) ou de télécharger l'archive zippée.
 
 ## Tutoriels d'initiation à [R](https://cran.r-project.org/)
-- [`Cal1-start-R`]() Démarrrer avec R pour statisticien novice.
-- [`Cal2-`]() .
-- [`Cal3-`]() .
-- [`Cal4-`]() .
-- [`Cal5-`]() .
+- [`Cal1-start-R`](https://github.com/wikistat/Intro-R/blob/master/cal1-start-R.ipynb) Démarrrer avec R pour statisticien novice.
+- [`Cal2-intro-R`](https://github.com/wikistat/Intro-R/blob/master/cal2-intro-R.ipynb) Introduction à R, ses objets, sa syntaxe.
+- [`Cal3-graph-R`](https://github.com/wikistat/Intro-R/blob/master/cal3-graph-R.ipynb) Quelques graphiques avec R.
+- [`Cal4-program-R`](https://github.com/wikistat/Intro-R/blob/master/cal4-program-R.ipynb) Eléments de programmation en R.
+
 
 
 ## Pourquoi [R](http://www.r-project.org/)?
