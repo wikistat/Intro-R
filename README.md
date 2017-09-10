@@ -41,8 +41,21 @@ Puis **au choix**
 **OU**
 
 - [Installer Python](http://localhost:8888/notebooks/Intro-Python/Cal1-introPython.ipynb)
-- Installer le noyau [IRkernel](https://irkernel.github.io/installation/)
-- Ouvrir les tutoriels ou notebooks Jupyter dans un navigateur
+- Installer le noyau [IRkernel](https://irkernel.github.io/installation/). Dans le salles du CSN de l'INSA, exécuter les commandes suivantes après avoir ouvert R dans un terminal (pas Rstudio):
+```bash
+    R
+```
+```R
+    install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+    library(devtools)
+    withr::with_libpaths(new = "~/R/libs/", install_github('IRkernel/IRkernel'))
+    IRkernel::installspec()
+    quit() # quitter R
+```
+```bash
+    export R-LIBS_USER=~/R/libs
+    jupyter notebook
+```
 
 **Dans les deux cas**
 
