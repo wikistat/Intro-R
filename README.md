@@ -53,7 +53,6 @@ Puis **au choix**
     quit() # quitter R
 ```
 ```bash
-    export R-LIBS_USER=~/R/libs
     jupyter notebook
 ```
 
